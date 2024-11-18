@@ -1,0 +1,189 @@
+[{
+  "0": {
+    "_id": {
+      "$oid": "673943b315cd8fbb173c44f0"
+    },
+    "equipos": [
+      {
+        "nombre": "Atlético Nacional",
+        "resultado": "2-0"
+      },
+      {
+        "nombre": "Deportivo Cali",
+        "resultado": "0"
+      }
+    ],
+    "estadio": "Atanasio Girardot",
+    "fecha": "2024-11-01",
+    "arbitros": [
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c0"
+        },
+        "nombre": "Wilmar Roldán",
+        "departamento": "Antioquia",
+        "experiencia": "15 años",
+        "tipo": "Árbitro Principal"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c3"
+        },
+        "nombre": "Nicolás Gallo",
+        "departamento": "Caldas",
+        "experiencia": "8 años",
+        "tipo": "Árbitro Asistente"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c4"
+        },
+        "nombre": "Carlos Betancur",
+        "departamento": "Valle",
+        "experiencia": "9 años",
+        "tipo": "Árbitro Asistente"
+      }
+    ]
+  },
+  "1": {
+    "_id": {
+      "$oid": "673943b315cd8fbb173c44f1"
+    },
+    "equipos": [
+      {
+        "nombre": "Millonarios",
+        "resultado": "1-0"
+      },
+      {
+        "nombre": "América de Cali",
+        "resultado": "0"
+      }
+    ],
+    "estadio": "El Campín",
+    "fecha": "2024-11-02",
+    "arbitros": [
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c1"
+        },
+        "nombre": "Carlos Ortega",
+        "departamento": "Bolívar",
+        "experiencia": "12 años",
+        "tipo": "Árbitro Principal"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c5"
+        },
+        "nombre": "Ferney Trujillo",
+        "departamento": "Casanare",
+        "experiencia": "7 años",
+        "tipo": "Árbitro Asistente"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c7"
+        },
+        "nombre": "Luis Matorel",
+        "departamento": "Bolívar",
+        "experiencia": "6 años",
+        "tipo": "Árbitro Asistente"
+      }
+    ]
+  },
+  "2": {
+    "_id": {
+      "$oid": "673943b315cd8fbb173c44f2"
+    },
+    "equipos": [
+      {
+        "nombre": "Junior",
+        "resultado": "2-1"
+      },
+      {
+        "nombre": "Santa Fe",
+        "resultado": "1"
+      }
+    ],
+    "estadio": "Metropolitano",
+    "fecha": "2024-11-03",
+    "arbitros": [
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c0"
+        },
+        "nombre": "Wilmar Roldán",
+        "departamento": "Antioquia",
+        "experiencia": "15 años",
+        "tipo": "Árbitro Principal"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c4"
+        },
+        "nombre": "Carlos Betancur",
+        "departamento": "Valle",
+        "experiencia": "9 años",
+        "tipo": "Árbitro Asistente"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c8"
+        },
+        "nombre": "Luis Delgado",
+        "departamento": "Valle",
+        "experiencia": "5 años",
+        "tipo": "Árbitro Asistente"
+      }
+    ]
+  },
+  "3": {
+    "_id": {
+      "$oid": "673943b315cd8fbb173c44f3"
+    },
+    "equipos": [
+      {
+        "nombre": "Independiente Medellín",
+        "resultado": "3-2"
+      },
+      {
+        "nombre": "Once Caldas",
+        "resultado": "2"
+      }
+    ],
+    "estadio": "Atanasio Girardot",
+    "fecha": "2024-11-04",
+    "arbitros": [
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c2"
+        },
+        "nombre": "Jhon Hinestroza",
+        "departamento": "Chocó",
+        "experiencia": "10 años",
+        "tipo": "Árbitro Principal"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c5"
+        },
+        "nombre": "Ferney Trujillo",
+        "departamento": "Casanare",
+        "experiencia": "7 años",
+        "tipo": "Árbitro Asistente"
+      },
+      {
+        "_id": {
+          "$oid": "673a10bb397ee4795d0f08c3"
+        },
+        "nombre": "Nicolás Gallo",
+        "departamento": "Caldas",
+        "experiencia": "8 años",
+        "tipo": "Árbitro Asistente"
+      }
+    ]
+  },
+  "_id": {
+    "$oid": "6739488015cd8fbb173c44f4"
+  }
+}]

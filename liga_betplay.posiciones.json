@@ -1,0 +1,76 @@
+[{
+  "0": {
+    "_id": {
+      "$oid": "6739475715cd8fbb173c44ef"
+    },
+    "puestos": [
+      {
+        "puesto": 1,
+        "nombre": "Atlético Nacional",
+        "puntos": 12,
+        "ciudad": "Medellín",
+        "estadio": "Atanasio Girardot",
+        "entrenador": "William Amaral"
+      },
+      {
+        "puesto": 2,
+        "nombre": "Millonarios",
+        "puntos": 10,
+        "ciudad": "Bogotá",
+        "estadio": "El Campín",
+        "entrenador": "Alberto Gamero"
+      },
+      {
+        "puesto": 3,
+        "nombre": "Deportivo Cali",
+        "puntos": 8,
+        "ciudad": "Cali",
+        "estadio": "Palmaseca",
+        "entrenador": "Jaime de la Pava"
+      },
+      {
+        "puesto": 4,
+        "nombre": "América de Cali",
+        "puntos": 7,
+        "ciudad": "Cali",
+        "estadio": "Pascual Guerrero",
+        "entrenador": "Lucas González"
+      },
+      {
+        "puesto": 5,
+        "nombre": "Junior",
+        "puntos": 6,
+        "ciudad": "Barranquilla",
+        "estadio": "Metropolitano",
+        "entrenador": "Arturo Reyes"
+      },
+      {
+        "puesto": 6,
+        "nombre": "Santa Fe",
+        "puntos": 5,
+        "ciudad": "Bogotá",
+        "estadio": "El Campín",
+        "entrenador": "Hubert Bodhert"
+      },
+      {
+        "puesto": 7,
+        "nombre": "Independiente Medellín",
+        "puntos": 4,
+        "ciudad": "Medellín",
+        "estadio": "Atanasio Girardot",
+        "entrenador": "Alfredo Arias"
+      },
+      {
+        "puesto": 8,
+        "nombre": "Once Caldas",
+        "puntos": 3,
+        "ciudad": "Manizales",
+        "estadio": "Palogrande",
+        "entrenador": "Pedro Sarmiento"
+      }
+    ]
+  },
+  "_id": {
+    "$oid": "6739475715cd8fbb173c44ef"
+  }
+}]
