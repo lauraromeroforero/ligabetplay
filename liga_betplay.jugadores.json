@@ -1,0 +1,898 @@
+[{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44cd"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44b7"
+  },
+  "equipo_nombre": "Atlético Nacional",
+  "jugadores": [
+    {
+      "nombre": "Yerson Mosquera",
+      "posición": "Defensa",
+      "edad": 21
+    },
+    {
+      "nombre": "Juan Pablo Ramírez",
+      "posición": "Mediocampista",
+      "edad": 23
+    },
+    {
+      "nombre": "Dorlan Pabón",
+      "posición": "Delantero",
+      "edad": 34
+    },
+    {
+      "nombre": "Andrés Andrade",
+      "posición": "Mediocampista",
+      "edad": 30
+    },
+    {
+      "nombre": "Jarlan Barrera",
+      "posición": "Mediocampista",
+      "edad": 27
+    },
+    {
+      "nombre": "Alejandro Guerra",
+      "posición": "Mediocampista",
+      "edad": 36
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44ce"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44b8"
+  },
+  "equipo_nombre": "Millonarios",
+  "jugadores": [
+    {
+      "nombre": "Alvaro Montero",
+      "posición": "Arquero",
+      "edad": 29
+    },
+    {
+      "nombre": "Carlos Andrés Gómez",
+      "posición": "Defensa",
+      "edad": 23
+    },
+    {
+      "nombre": "Fernando Uribe",
+      "posición": "Delantero",
+      "edad": 34
+    },
+    {
+      "nombre": "Andrés Llinás",
+      "posición": "Defensa",
+      "edad": 26
+    },
+    {
+      "nombre": "Daniel Ruiz",
+      "posición": "Mediocampista",
+      "edad": 22
+    },
+    {
+      "nombre": "David Macalister Silva",
+      "posición": "Mediocampista",
+      "edad": 36
+    },
+    {
+      "nombre": "Juan Camilo García",
+      "posición": "Defensa",
+      "edad": 28
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44cf"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44b9"
+  },
+  "equipo_nombre": "Deportivo Cali",
+  "jugadores": [
+    {
+      "nombre": "David González",
+      "posición": "Arquero",
+      "edad": 30
+    },
+    {
+      "nombre": "Juan Camilo Angulo",
+      "posición": "Defensa",
+      "edad": 32
+    },
+    {
+      "nombre": "Teófilo Gutiérrez",
+      "posición": "Delantero",
+      "edad": 38
+    },
+    {
+      "nombre": "Carlos Rodríguez",
+      "posición": "Mediocampista",
+      "edad": 24
+    },
+    {
+      "nombre": "Jhon Vásquez",
+      "posición": "Delantero",
+      "edad": 28
+    },
+    {
+      "nombre": "Juan José Peña",
+      "posición": "Defensa",
+      "edad": 25
+    },
+    {
+      "nombre": "Jaime de la Pava",
+      "posición": "Entrenador",
+      "edad": 58
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d0"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44ba"
+  },
+  "equipo_nombre": "América de Cali",
+  "jugadores": [
+    {
+      "nombre": "Carlos Bejarano",
+      "posición": "Arquero",
+      "edad": 33
+    },
+    {
+      "nombre": "Felipe Jaramillo",
+      "posición": "Defensa",
+      "edad": 31
+    },
+    {
+      "nombre": "Adrián Ramos",
+      "posición": "Delantero",
+      "edad": 37
+    },
+    {
+      "nombre": "Michael Rangel",
+      "posición": "Delantero",
+      "edad": 30
+    },
+    {
+      "nombre": "Sebastián Ospina",
+      "posición": "Defensa",
+      "edad": 25
+    },
+    {
+      "nombre": "Luis Sánchez",
+      "posición": "Mediocampista",
+      "edad": 29
+    },
+    {
+      "nombre": "Lucas González",
+      "posición": "Entrenador",
+      "edad": 41
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d1"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44bb"
+  },
+  "equipo_nombre": "Junior",
+  "jugadores": [
+    {
+      "nombre": "Sebastián Viera",
+      "posición": "Arquero",
+      "edad": 36
+    },
+    {
+      "nombre": "Daniel Giraldo",
+      "posición": "Mediocampista",
+      "edad": 29
+    },
+    {
+      "nombre": "Teófilo Gutiérrez",
+      "posición": "Delantero",
+      "edad": 38
+    },
+    {
+      "nombre": "Juan David Rodríguez",
+      "posición": "Defensa",
+      "edad": 32
+    },
+    {
+      "nombre": "César Haydar",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "Jhon Pajoy",
+      "posición": "Mediocampista",
+      "edad": 31
+    },
+    {
+      "nombre": "Arturo Reyes",
+      "posición": "Entrenador",
+      "edad": 51
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d2"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44bc"
+  },
+  "equipo_nombre": "Santa Fe",
+  "jugadores": [
+    {
+      "nombre": "Leandro Castellanos",
+      "posición": "Arquero",
+      "edad": 37
+    },
+    {
+      "nombre": "Johan Caballero",
+      "posición": "Defensa",
+      "edad": 23
+    },
+    {
+      "nombre": "Carlos Henao",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "Wilson Morelo",
+      "posición": "Delantero",
+      "edad": 34
+    },
+    {
+      "nombre": "Marlon Torres",
+      "posición": "Defensa",
+      "edad": 27
+    },
+    {
+      "nombre": "Germán Mera",
+      "posición": "Defensa",
+      "edad": 31
+    },
+    {
+      "nombre": "Hubert Bodhert",
+      "posición": "Entrenador",
+      "edad": 50
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d3"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44bd"
+  },
+  "equipo_nombre": "Independiente Medellín",
+  "jugadores": [
+    {
+      "nombre": "Andrés Mosquera Marmolejo",
+      "posición": "Arquero",
+      "edad": 30
+    },
+    {
+      "nombre": "Johan Carbonero",
+      "posición": "Defensa",
+      "edad": 27
+    },
+    {
+      "nombre": "Álvaro Angulo",
+      "posición": "Defensa",
+      "edad": 30
+    },
+    {
+      "nombre": "Gustavo Torres",
+      "posición": "Delantero",
+      "edad": 29
+    },
+    {
+      "nombre": "Edwin Cetré",
+      "posición": "Mediocampista",
+      "edad": 22
+    },
+    {
+      "nombre": "Diber Cambindo",
+      "posición": "Delantero",
+      "edad": 26
+    },
+    {
+      "nombre": "Alfredo Arias",
+      "posición": "Entrenador",
+      "edad": 53
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d4"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44be"
+  },
+  "equipo_nombre": "Once Caldas",
+  "jugadores": [
+    {
+      "nombre": "Gerardo Ortiz",
+      "posición": "Arquero",
+      "edad": 32
+    },
+    {
+      "nombre": "Carlos Ramírez",
+      "posición": "Defensa",
+      "edad": 33
+    },
+    {
+      "nombre": "José Luis Moreno",
+      "posición": "Mediocampista",
+      "edad": 29
+    },
+    {
+      "nombre": "José Sánchez",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "Jhon García",
+      "posición": "Mediocampista",
+      "edad": 27
+    },
+    {
+      "nombre": "John Freddy Ríos",
+      "posición": "Defensa",
+      "edad": 31
+    },
+    {
+      "nombre": "Pedro Sarmiento",
+      "posición": "Entrenador",
+      "edad": 58
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d5"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44bf"
+  },
+  "equipo_nombre": "Atlético Bucaramanga",
+  "jugadores": [
+    {
+      "nombre": "Jhonny Vázquez",
+      "posición": "Arquero",
+      "edad": 32
+    },
+    {
+      "nombre": "Carlos Cuesta",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "Luis Payares",
+      "posición": "Defensa",
+      "edad": 29
+    },
+    {
+      "nombre": "Iván Rojas",
+      "posición": "Delantero",
+      "edad": 24
+    },
+    {
+      "nombre": "Christian Marrugo",
+      "posición": "Mediocampista",
+      "edad": 36
+    },
+    {
+      "nombre": "Carlos Rivas",
+      "posición": "Delantero",
+      "edad": 27
+    },
+    {
+      "nombre": "Alexis Márquez",
+      "posición": "Entrenador",
+      "edad": 55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d6"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44c0"
+  },
+  "equipo_nombre": "La Equidad",
+  "jugadores": [
+    {
+      "nombre": "Rafael Romo",
+      "posición": "Arquero",
+      "edad": 33
+    },
+    {
+      "nombre": "Cristian Subero",
+      "posición": "Defensa",
+      "edad": 29
+    },
+    {
+      "nombre": "Carlos Peralta",
+      "posición": "Mediocampista",
+      "edad": 26
+    },
+    {
+      "nombre": "José Moreno",
+      "posición": "Delantero",
+      "edad": 28
+    },
+    {
+      "nombre": "Carlos Lizarazo",
+      "posición": "Mediocampista",
+      "edad": 27
+    },
+    {
+      "nombre": "Nicolás Palacios",
+      "posición": "Defensa",
+      "edad": 30
+    },
+    {
+      "nombre": "Luis Fernando Suárez",
+      "posición": "Entrenador",
+      "edad": 60
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44d7"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44c1"
+  },
+  "equipo_nombre": "Cúcuta Deportivo",
+  "jugadores": [
+    {
+      "nombre": "Carlos Abadía",
+      "posición": "Arquero",
+      "edad": 30
+    },
+    {
+      "nombre": "Félix Micolta",
+      "posición": "Mediocampista",
+      "edad": 27
+    },
+    {
+      "nombre": "Nelson Flórez",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "Héctor Cárdenas",
+      "posición": "Entrenador",
+      "edad": 50
+    },
+    {
+      "nombre": "Felipe Aguirre",
+      "posición": "Delantero",
+      "edad": 24
+    },
+    {
+      "nombre": "Jhon Álex Suárez",
+      "posición": "Mediocampista",
+      "edad": 26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44da"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44c2"
+  },
+  "equipo_nombre": "Deportes Tolima",
+  "jugadores": [
+    {
+      "nombre": "Alexander Domínguez",
+      "posición": "Arquero",
+      "edad": 37
+    },
+    {
+      "nombre": "Carlos Robles",
+      "posición": "Defensa",
+      "edad": 30
+    },
+    {
+      "nombre": "Juan David Valencia",
+      "posición": "Mediocampista",
+      "edad": 33
+    },
+    {
+      "nombre": "Rafael Carrascal",
+      "posición": "Mediocampista",
+      "edad": 27
+    },
+    {
+      "nombre": "Luis Miranda",
+      "posición": "Delantero",
+      "edad": 25
+    },
+    {
+      "nombre": "Adrián Ramos",
+      "posición": "Delantero",
+      "edad": 38
+    },
+    {
+      "nombre": "Héctor Fabio Cruz",
+      "posición": "Entrenador",
+      "edad": 50
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e0"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44c8"
+  },
+  "equipo_nombre": "Cortuluá",
+  "jugadores": [
+    {
+      "nombre": "Luis Martínez",
+      "posición": "Arquero",
+      "edad": 33
+    },
+    {
+      "nombre": "Carlos Alberto Gómez",
+      "posición": "Defensa",
+      "edad": 31
+    },
+    {
+      "nombre": "Luis Guillermo Arias",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "José Luis Moreno",
+      "posición": "Mediocampista",
+      "edad": 30
+    },
+    {
+      "nombre": "José Sánchez",
+      "posición": "Delantero",
+      "edad": 27
+    },
+    {
+      "nombre": "Julián Andrés Vásquez",
+      "posición": "Mediocampista",
+      "edad": 29
+    },
+    {
+      "nombre": "Fernando Velasco",
+      "posición": "Entrenador",
+      "edad": 52
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e1"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44c6"
+  },
+  "equipo_nombre": "Envigado FC",
+  "jugadores": [
+    {
+      "nombre": "Geraldino Rodríguez",
+      "posición": "Arquero",
+      "edad": 30
+    },
+    {
+      "nombre": "Carlos Alberto Pérez",
+      "posición": "Defensa",
+      "edad": 26
+    },
+    {
+      "nombre": "Jorge Segura",
+      "posición": "Defensa",
+      "edad": 29
+    },
+    {
+      "nombre": "Juan David Cuesta",
+      "posición": "Mediocampista",
+      "edad": 22
+    },
+    {
+      "nombre": "Rafael Carrascal",
+      "posición": "Mediocampista",
+      "edad": 24
+    },
+    {
+      "nombre": "David Lemos",
+      "posición": "Delantero",
+      "edad": 28
+    },
+    {
+      "nombre": "Alejandro Restrepo",
+      "posición": "Entrenador",
+      "edad": 48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e2"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44c4"
+  },
+  "equipo_nombre": "Alianza Petrolera",
+  "jugadores": [
+    {
+      "nombre": "José David Gómez",
+      "posición": "Arquero",
+      "edad": 31
+    },
+    {
+      "nombre": "Juan Camilo Chaverra",
+      "posición": "Defensa",
+      "edad": 25
+    },
+    {
+      "nombre": "Javier López",
+      "posición": "Defensa",
+      "edad": 29
+    },
+    {
+      "nombre": "Carlos Rivas",
+      "posición": "Mediocampista",
+      "edad": 27
+    },
+    {
+      "nombre": "Julián Quiñones",
+      "posición": "Delantero",
+      "edad": 28
+    },
+    {
+      "nombre": "Nicolás Palacios",
+      "posición": "Mediocampista",
+      "edad": 26
+    },
+    {
+      "nombre": "Pedro Sarmiento",
+      "posición": "Entrenador",
+      "edad": 55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e4"
+  },
+  "equipo_id": {
+    "$oid": "673943b315cd8fbb173c44c5"
+  },
+  "equipo_nombre": "Águilas Doradas",
+  "jugadores": [
+    {
+      "nombre": "Juan David Valencia",
+      "posición": "Arquero",
+      "edad": 31
+    },
+    {
+      "nombre": "Nicolás Hernández",
+      "posición": "Defensa",
+      "edad": 27
+    },
+    {
+      "nombre": "Luis Carlos Ruiz",
+      "posición": "Delantero",
+      "edad": 32
+    },
+    {
+      "nombre": "John Hernández",
+      "posición": "Mediocampista",
+      "edad": 25
+    },
+    {
+      "nombre": "Carlos Rodríguez",
+      "posición": "Mediocampista",
+      "edad": 24
+    },
+    {
+      "nombre": "José Luis Chunga",
+      "posición": "Defensa",
+      "edad": 29
+    },
+    {
+      "nombre": "Héctor Restrepo",
+      "posición": "Entrenador",
+      "edad": 55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e6"
+  },
+  "equipo_nombre": "Jaguares de Córdoba",
+  "jugadores": [
+    {
+      "nombre": "Carlos Rodríguez",
+      "posición": "Arquero",
+      "edad": 31
+    },
+    {
+      "nombre": "Felipe Jaramillo",
+      "posición": "Defensa",
+      "edad": 27
+    },
+    {
+      "nombre": "Carlos Rivas",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "Juan Guillermo Delgado",
+      "posición": "Mediocampista",
+      "edad": 23
+    },
+    {
+      "nombre": "José Luis Chunga",
+      "posición": "Mediocampista",
+      "edad": 26
+    },
+    {
+      "nombre": "Daniel Buitrago",
+      "posición": "Delantero",
+      "edad": 24
+    },
+    {
+      "nombre": "Miguel Ángel López",
+      "posición": "Entrenador",
+      "edad": 48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e7"
+  },
+  "equipo_nombre": "Patriotas Boyacá",
+  "jugadores": [
+    {
+      "nombre": "Carlos Bejarano",
+      "posición": "Arquero",
+      "edad": 33
+    },
+    {
+      "nombre": "Carlos Ramírez",
+      "posición": "Defensa",
+      "edad": 30
+    },
+    {
+      "nombre": "Felipe Ávila",
+      "posición": "Defensa",
+      "edad": 26
+    },
+    {
+      "nombre": "Felipe Pardo",
+      "posición": "Mediocampista",
+      "edad": 28
+    },
+    {
+      "nombre": "Jhon Vásquez",
+      "posición": "Mediocampista",
+      "edad": 27
+    },
+    {
+      "nombre": "Carlos Rivas",
+      "posición": "Delantero",
+      "edad": 29
+    },
+    {
+      "nombre": "Diego Corredor",
+      "posición": "Entrenador",
+      "edad": 45
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e8"
+  },
+  "equipo_nombre": "Real Cartagena",
+  "jugadores": [
+    {
+      "nombre": "Carlos Rodríguez",
+      "posición": "Arquero",
+      "edad": 29
+    },
+    {
+      "nombre": "Felipe Ávila",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "Carlos Martínez",
+      "posición": "Defensa",
+      "edad": 27
+    },
+    {
+      "nombre": "Juan Camilo García",
+      "posición": "Mediocampista",
+      "edad": 24
+    },
+    {
+      "nombre": "Iván Rivas",
+      "posición": "Delantero",
+      "edad": 25
+    },
+    {
+      "nombre": "Carlos Rivas",
+      "posición": "Delantero",
+      "edad": 28
+    },
+    {
+      "nombre": "Jairo Díaz",
+      "posición": "Entrenador",
+      "edad": 50
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6739464c15cd8fbb173c44e9"
+  },
+  "equipo": "Cortuluá",
+  "jugadores": [
+    {
+      "nombre": "Luis Martínez",
+      "posición": "Arquero",
+      "edad": 33
+    },
+    {
+      "nombre": "Carlos Alberto Gómez",
+      "posición": "Defensa",
+      "edad": 31
+    },
+    {
+      "nombre": "Luis Guillermo Arias",
+      "posición": "Defensa",
+      "edad": 28
+    },
+    {
+      "nombre": "José Luis Moreno",
+      "posición": "Mediocampista",
+      "edad": 30
+    },
+    {
+      "nombre": "José Sánchez",
+      "posición": "Delantero",
+      "edad": 27
+    },
+    {
+      "nombre": "Julián Andrés Vásquez",
+      "posición": "Mediocampista",
+      "edad": 29
+    },
+    {
+      "nombre": "Fernando Velasco",
+      "posición": "Entrenador",
+      "edad": 52
+    }
+  ]
+}]

@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c0"
+  },
+  "nombre": "Wilmar Roldán",
+  "departamento": "Antioquia",
+  "experiencia": "15 años",
+  "tipo": "Árbitro Principal"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c1"
+  },
+  "nombre": "Carlos Ortega",
+  "departamento": "Bolívar",
+  "experiencia": "12 años",
+  "tipo": "Árbitro Principal"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c2"
+  },
+  "nombre": "Jhon Hinestroza",
+  "departamento": "Chocó",
+  "experiencia": "10 años",
+  "tipo": "Árbitro Principal"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c3"
+  },
+  "nombre": "Nicolás Gallo",
+  "departamento": "Caldas",
+  "experiencia": "8 años",
+  "tipo": "Árbitro Asistente"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c4"
+  },
+  "nombre": "Carlos Betancur",
+  "departamento": "Valle",
+  "experiencia": "9 años",
+  "tipo": "Árbitro Asistente"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c5"
+  },
+  "nombre": "Ferney Trujillo",
+  "departamento": "Casanare",
+  "experiencia": "7 años",
+  "tipo": "Árbitro Asistente"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c6"
+  },
+  "nombre": "José Ortiz",
+  "departamento": "Norte",
+  "experiencia": "11 años",
+  "tipo": "Árbitro Principal"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c7"
+  },
+  "nombre": "Luis Matorel",
+  "departamento": "Bolívar",
+  "experiencia": "6 años",
+  "tipo": "Árbitro Asistente"
+},
+{
+  "_id": {
+    "$oid": "673a10bb397ee4795d0f08c8"
+  },
+  "nombre": "Luis Delgado",
+  "departamento": "Valle",
+  "experiencia": "5 años",
+  "tipo": "Árbitro Asistente"
+}]
