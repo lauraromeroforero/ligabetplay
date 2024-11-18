@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44b7"
+  },
+  "nombre": "Atlético Nacional",
+  "ciudad": "Medellín",
+  "estadio": "Atanasio Girardot",
+  "entrenador": "William Amaral"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44b8"
+  },
+  "nombre": "Millonarios",
+  "ciudad": "Bogotá",
+  "estadio": "El Campín",
+  "entrenador": "Alberto Gamero"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44b9"
+  },
+  "nombre": "Deportivo Cali",
+  "ciudad": "Cali",
+  "estadio": "Palmaseca",
+  "entrenador": "Jaime de la Pava"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44ba"
+  },
+  "nombre": "América de Cali",
+  "ciudad": "Cali",
+  "estadio": "Pascual Guerrero",
+  "entrenador": "Lucas González"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44bb"
+  },
+  "nombre": "Junior",
+  "ciudad": "Barranquilla",
+  "estadio": "Metropolitano",
+  "entrenador": "Arturo Reyes"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44bc"
+  },
+  "nombre": "Santa Fe",
+  "ciudad": "Bogotá",
+  "estadio": "El Campín",
+  "entrenador": "Hubert Bodhert"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44bd"
+  },
+  "nombre": "Independiente Medellín",
+  "ciudad": "Medellín",
+  "estadio": "Atanasio Girardot",
+  "entrenador": "Alfredo Arias"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44be"
+  },
+  "nombre": "Once Caldas",
+  "ciudad": "Manizales",
+  "estadio": "Palogrande",
+  "entrenador": "Pedro Sarmiento"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44bf"
+  },
+  "nombre": "Atlético Bucaramanga",
+  "ciudad": "Bucaramanga",
+  "estadio": "Alfonso López",
+  "entrenador": "Alexis Márquez"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c0"
+  },
+  "nombre": "La Equidad",
+  "ciudad": "Bogotá",
+  "estadio": "Metropolitano de Techo",
+  "entrenador": "Alexis García"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c1"
+  },
+  "nombre": "Cúcuta Deportivo",
+  "ciudad": "Cúcuta",
+  "estadio": "General Santander",
+  "entrenador": "Bernardo Redín"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c2"
+  },
+  "nombre": "Deportes Tolima",
+  "ciudad": "Ibagué",
+  "estadio": "Manuel Murillo Toro",
+  "entrenador": "David González"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c3"
+  },
+  "nombre": "Deportivo Pasto",
+  "ciudad": "Pasto",
+  "estadio": "Departamental Libertad",
+  "entrenador": "Flabio Torres"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c4"
+  },
+  "nombre": "Alianza Petrolera",
+  "ciudad": "Barrancabermeja",
+  "estadio": "Daniel Villa Zapata",
+  "entrenador": "César Torres"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c5"
+  },
+  "nombre": "Águilas Doradas",
+  "ciudad": "Rionegro",
+  "estadio": "Estadio Alberto Grisales",
+  "entrenador": "César Farías"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c6"
+  },
+  "nombre": "Envigado FC",
+  "ciudad": "Envigado",
+  "estadio": "Polideportivo Sur",
+  "entrenador": "José Alberto Suárez"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c7"
+  },
+  "nombre": "Deportes Quindío",
+  "ciudad": "Armenia",
+  "estadio": "Centenario",
+  "entrenador": "Óscar Héctor Quintabani"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c8"
+  },
+  "nombre": "Cortuluá",
+  "ciudad": "Tuluá",
+  "estadio": "Doce de Octubre",
+  "entrenador": "Néstor Craviotto"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44c9"
+  },
+  "nombre": "Unión Magdalena",
+  "ciudad": "Santa Marta",
+  "estadio": "Sierra Nevada",
+  "entrenador": "Claudio Rodríguez"
+},
+{
+  "_id": {
+    "$oid": "673943b315cd8fbb173c44ca"
+  },
+  "nombre": "Jaguares de Córdoba",
+  "ciudad": "Montería",
+  "estadio": "Jaraguay",
+  "entrenador": "Carlos Restrepo"
+}]
