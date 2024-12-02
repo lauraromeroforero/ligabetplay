@@ -1,0 +1,304 @@
+Please enter a MongoDB connection string (Default: mongodb://localhost/): mongod
+mongod
+Current Mongosh Log ID: 674d2471968e51b17f0d818f
+Connecting to:          mongodb://127.0.0.1:27017/mongod?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.3
+Using MongoDB:          8.0.3
+Using Mongosh:          2.3.3
+mongosh 2.3.4 is available for download: https://www.mongodb.com/try/download/shell
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2024-12-01T22:06:19.425-05:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+rs0 [direct: primary] mongod> sr.isMaster()
+ReferenceError: sr is not defined
+rs0 [direct: primary] mongod> rs.isMaster
+[Function: isMaster] AsyncFunction {
+  apiVersions: [ 0, 0 ],
+  returnsPromise: true,
+  serverVersions: [ '0.0.0', '999.999.999' ],
+  topologies: [ 'ReplSet', 'Sharded', 'LoadBalanced', 'Standalone' ],
+  returnType: { type: 'unknown', attributes: {} },
+  deprecated: false,
+  platforms: [ 'Compass', 'Browser', 'CLI' ],
+  isDirectShellCommand: false,
+  acceptsRawInput: false,
+  shellCommandCompleter: undefined,
+  help: [Function (anonymous)] Help
+}
+rs0 [direct: primary] mongod> rs.isMaster()
+{
+  topologyVersion: {
+    processId: ObjectId('674d242952142a0461b0ba71'),
+    counter: Long('6')
+  },
+  hosts: [ 'localhost:27017' ],
+  setName: 'rs0',
+  setVersion: 22,
+  ismaster: true,
+  secondary: false,
+  primary: 'localhost:27017',
+  me: 'localhost:27017',
+  electionId: ObjectId('7fffffff000000000000000e'),
+  lastWrite: {
+    opTime: { ts: Timestamp({ t: 1733108889, i: 1 }), t: Long('14') },
+    lastWriteDate: ISODate('2024-12-02T03:08:09.000Z'),
+    majorityOpTime: { ts: Timestamp({ t: 1733108889, i: 1 }), t: Long('14') },
+    majorityWriteDate: ISODate('2024-12-02T03:08:09.000Z')
+  },
+  maxBsonObjectSize: 16777216,
+  maxMessageSizeBytes: 48000000,
+  maxWriteBatchSize: 100000,
+  localTime: ISODate('2024-12-02T03:08:10.633Z'),
+  logicalSessionTimeoutMinutes: 30,
+  connectionId: 16,
+  minWireVersion: 0,
+  maxWireVersion: 25,
+  readOnly: false,
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1733108889, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1733108889, i: 1 }),
+  isWritablePrimary: true
+}
+rs0 [direct: primary] mongod> rs.add("localhost:27018")
+{
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1733108914, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1733108914, i: 1 })
+}
+rs0 [direct: primary] mongod> rs.add("localhost:27019")
+{
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1733108914, i: 2 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1733108914, i: 2 })
+}
+rs0 [direct: primary] mongod> rs.add("localhost:27020")
+{
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1733108926, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1733108926, i: 1 })
+}
+rs0 [direct: primary] mongod> rs.isMaster()
+{
+  topologyVersion: {
+    processId: ObjectId('674d242952142a0461b0ba71'),
+    counter: Long('12')
+  },
+  hosts: [
+    'localhost:27017',
+    'localhost:27018',
+    'localhost:27019',
+    'localhost:27020'
+  ],
+  setName: 'rs0',
+  setVersion: 28,
+  ismaster: true,
+  secondary: false,
+  primary: 'localhost:27017',
+  me: 'localhost:27017',
+  electionId: ObjectId('7fffffff000000000000000e'),
+  lastWrite: {
+    opTime: { ts: Timestamp({ t: 1733108928, i: 1 }), t: Long('14') },
+    lastWriteDate: ISODate('2024-12-02T03:08:48.000Z'),
+    majorityOpTime: { ts: Timestamp({ t: 1733108928, i: 1 }), t: Long('14') },
+    majorityWriteDate: ISODate('2024-12-02T03:08:48.000Z')
+  },
+  maxBsonObjectSize: 16777216,
+  maxMessageSizeBytes: 48000000,
+  maxWriteBatchSize: 100000,
+  localTime: ISODate('2024-12-02T03:08:57.471Z'),
+  logicalSessionTimeoutMinutes: 30,
+  connectionId: 16,
+  minWireVersion: 0,
+  maxWireVersion: 25,
+  readOnly: false,
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1733108928, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1733108928, i: 1 }),
+  isWritablePrimary: true
+}
+rs0 [direct: primary] mongod> rs.status()
+{
+  set: 'rs0',
+  date: ISODate('2024-12-02T03:09:37.701Z'),
+  myState: 1,
+  term: Long('14'),
+  syncSourceHost: '',
+  syncSourceId: -1,
+  heartbeatIntervalMillis: Long('2000'),
+  majorityVoteCount: 3,
+  writeMajorityCount: 3,
+  votingMembersCount: 4,
+  writableVotingMembersCount: 4,
+  optimes: {
+    lastCommittedOpTime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+    lastCommittedWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+    readConcernMajorityOpTime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+    appliedOpTime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+    durableOpTime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+    writtenOpTime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+    lastAppliedWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+    lastDurableWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+    lastWrittenWallTime: ISODate('2024-12-02T03:09:29.933Z')
+  },
+  lastStableRecoveryTimestamp: Timestamp({ t: 1733108949, i: 1 }),
+  electionCandidateMetrics: {
+    lastElectionReason: 'electionTimeout',
+    lastElectionDate: ISODate('2024-12-02T03:06:19.894Z'),
+    electionTerm: Long('14'),
+    lastCommittedOpTimeAtElection: { ts: Timestamp({ t: 0, i: 0 }), t: Long('-1') },
+    lastSeenWrittenOpTimeAtElection: { ts: Timestamp({ t: 1733108533, i: 1 }), t: Long('13') },
+    lastSeenOpTimeAtElection: { ts: Timestamp({ t: 1733108533, i: 1 }), t: Long('13') },
+    numVotesNeeded: 1,
+    priorityAtElection: 1,
+    electionTimeoutMillis: Long('10000'),
+    newTermStartDate: ISODate('2024-12-02T03:06:19.913Z'),
+    wMajorityWriteAvailabilityDate: ISODate('2024-12-02T03:06:20.015Z')
+  },
+  members: [
+    {
+      _id: 0,
+      name: 'localhost:27017',
+      health: 1,
+      state: 1,
+      stateStr: 'PRIMARY',
+      uptime: 200,
+      optime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeDate: ISODate('2024-12-02T03:09:29.000Z'),
+      optimeWritten: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeWrittenDate: ISODate('2024-12-02T03:09:29.000Z'),
+      lastAppliedWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastDurableWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastWrittenWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      syncSourceHost: '',
+      syncSourceId: -1,
+      infoMessage: '',
+      electionTime: Timestamp({ t: 1733108779, i: 1 }),
+      electionDate: ISODate('2024-12-02T03:06:19.000Z'),
+      configVersion: 28,
+      configTerm: 14,
+      self: true,
+      lastHeartbeatMessage: ''
+    },
+    {
+      _id: 1,
+      name: 'localhost:27018',
+      health: 1,
+      state: 2,
+      stateStr: 'SECONDARY',
+      uptime: 63,
+      optime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeDurable: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeWritten: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeDate: ISODate('2024-12-02T03:09:29.000Z'),
+      optimeDurableDate: ISODate('2024-12-02T03:09:29.000Z'),
+      optimeWrittenDate: ISODate('2024-12-02T03:09:29.000Z'),
+      lastAppliedWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastDurableWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastWrittenWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastHeartbeat: ISODate('2024-12-02T03:09:36.107Z'),
+      lastHeartbeatRecv: ISODate('2024-12-02T03:09:36.107Z'),
+      pingMs: Long('0'),
+      lastHeartbeatMessage: '',
+      syncSourceHost: 'localhost:27017',
+      syncSourceId: 0,
+      infoMessage: '',
+      configVersion: 28,
+      configTerm: 14
+    },
+    {
+      _id: 2,
+      name: 'localhost:27019',
+      health: 1,
+      state: 2,
+      stateStr: 'SECONDARY',
+      uptime: 63,
+      optime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeDurable: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeWritten: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeDate: ISODate('2024-12-02T03:09:29.000Z'),
+      optimeDurableDate: ISODate('2024-12-02T03:09:29.000Z'),
+      optimeWrittenDate: ISODate('2024-12-02T03:09:29.000Z'),
+      lastAppliedWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastDurableWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastWrittenWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastHeartbeat: ISODate('2024-12-02T03:09:36.106Z'),
+      lastHeartbeatRecv: ISODate('2024-12-02T03:09:36.105Z'),
+      pingMs: Long('0'),
+      lastHeartbeatMessage: '',
+      syncSourceHost: 'localhost:27017',
+      syncSourceId: 0,
+      infoMessage: '',
+      configVersion: 28,
+      configTerm: 14
+    },
+    {
+      _id: 3,
+      name: 'localhost:27020',
+      health: 1,
+      state: 2,
+      stateStr: 'SECONDARY',
+      uptime: 51,
+      optime: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeDurable: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeWritten: { ts: Timestamp({ t: 1733108969, i: 1 }), t: Long('14') },
+      optimeDate: ISODate('2024-12-02T03:09:29.000Z'),
+      optimeDurableDate: ISODate('2024-12-02T03:09:29.000Z'),
+      optimeWrittenDate: ISODate('2024-12-02T03:09:29.000Z'),
+      lastAppliedWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastDurableWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastWrittenWallTime: ISODate('2024-12-02T03:09:29.933Z'),
+      lastHeartbeat: ISODate('2024-12-02T03:09:36.117Z'),
+      lastHeartbeatRecv: ISODate('2024-12-02T03:09:36.127Z'),
+      pingMs: Long('0'),
+      lastHeartbeatMessage: '',
+      syncSourceHost: 'localhost:27018',
+      syncSourceId: 1,
+      infoMessage: '',
+      configVersion: 28,
+      configTerm: 14
+    }
+  ],
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1733108969, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+Please enter a MongoDB connection string (Default: mongodb://lors0 [direct: primary] mongod>
+Please enter a MongoDB connection string (Default: mongodb://lrs0 [direct: primary] mongod>
+rs0 [direct: primary] mongod>
